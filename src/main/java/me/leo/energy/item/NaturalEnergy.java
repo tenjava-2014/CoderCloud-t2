@@ -159,9 +159,9 @@ public class NaturalEnergy extends NewItem {
 		ItemStack i = new ItemStack(Material.INK_SACK);
 		i.setDurability((short) 2);
 
-		return setNameAndLore(i, ChatColor.AQUA + "Energy",
-				ChatColor.DARK_PURPLE + "" + ChatColor.ITALIC
-						+ "A great source of power");
+		return setNameAndLore(i, ChatColor.DARK_GREEN + "NaturalEnergy",
+				ChatColor.GREEN + "" + ChatColor.ITALIC
+						+ "Power of wind");
 	}
 
 }

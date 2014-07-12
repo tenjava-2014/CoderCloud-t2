@@ -170,8 +170,8 @@ public class ColdEnergy extends NewItem {
 		ItemStack i = new ItemStack(Material.SNOW_BALL);
 
 		return setNameAndLore(i, ChatColor.AQUA + "ColdEnergy",
-				ChatColor.DARK_PURPLE + "" + ChatColor.ITALIC
-						+ "A great source of cold power");
+				ChatColor.DARK_BLUE + "" + ChatColor.ITALIC
+						+ "The coldest power");
 	}
 
 }
